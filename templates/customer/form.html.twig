@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ page_title|trans}}{% endblock %}
+
+{% block body %}
+    <h1>{{ page_title|trans}}</h1>
+    {{ form(customerForm) }}
+    
+{% endblock %}
